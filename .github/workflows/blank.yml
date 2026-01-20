@@ -1,1 +1,8 @@
+trigger:
+- master
+pool:
+  vmImage: ubuntu-latest
+steps:
+- script: echo "hello world"
+displayName: "Run a oneline script"
 
